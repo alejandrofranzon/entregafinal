@@ -1,0 +1,34 @@
+
+$redes: (
+        twitter: #17c1ff,
+        facebook: #1500ff,
+        instagram: #f1560e,
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+
+.fa-twitter {
+    color: #17c1ff;
+}
+
+.fa-facebook {
+    color: #1500ff;
+}
+
+.fa-instagram {
+    color: #f1560e;
+}
+
+.twitch--twitch{
+    @extend .twitch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    border-radius: 2px;
+
+}
+
+

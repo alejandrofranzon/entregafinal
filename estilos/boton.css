@@ -1,0 +1,117 @@
+.boton.uno::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+    
+}
+
+.boton.uno:hover::after {
+    top: 0;
+}
+
+.boton.dos::after{
+    content: "";
+    width: 164%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid blue;
+    border-right: 80px solid transparent;
+    transition: .4s ease-in-out all;
+    
+}
+
+.boton.dos:hover::after {
+    left: 0;
+}
+
+.boton.tres::after{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: rgb(0, 225, 255);
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .5s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
+    
+}
+
+.boton.tres:hover::after {
+    top: 0;
+}
+
+.boton.cuatro::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .9s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+    
+}
+
+.boton.cuatro:hover::after {
+    transform: scale(400);
+    background: green;
+}
+
+.boton.cuatro:hover {
+    background: greenyellow;
+}
+
+.boton.cinco::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+    
+}
+
+.boton.cinco:hover::after {
+    transform: scale(500);
+    background: rgb(0, 38, 255);
+}
+
+.boton.cinco:hover {
+    background: rgb(255, 0, 0);
+}
+
+.boton.seis::after{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: rgb(204, 0, 255);
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .5s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
+    
+}
+
+.boton.seis:hover::after {
+    top: 0;
+}
